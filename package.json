@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "saludar": "node codigo.js"
+    }
+}
