@@ -1,6 +1,8 @@
-let i = 0
-let max = 10
-while (i < max) {
-  console.log(i)
-  i++
+let factorial = 1
+let num = 10
+while (num > 1) {
+  factorial *= num
+  num--
 }
+
+console.log(factorial)
