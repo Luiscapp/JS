@@ -1,9 +1,10 @@
-let nombre = "Luis"
-let apellido = "Pinto"
-let estudiante = console.log(nombre.concat(" ", apellido))
-let estudianteMayus = console.log(estudiante.toUpperCase())
-let estudianteMinus = console.log(estudiante.toLowerCase())
-let caracteres = console.log(estudiante.lenght())
-console.log(nmbre.chartAt(0))
-console.log(apellido.charAt(0))
-console.log(estudiante.trim().length)
+const nombre = "Luis"
+const apellido = "Pinto"
+const estudiante = nombre.concat(" ", apellido)
+const estudianteMayus = estudiante.toUpperCase()
+const estudianteMinus = estudiante.toLowerCase()
+const length = estudiante.length
+const inicialNombre = nombre.substring(0, 1)
+const finalApellido = apellido.substring(apellido.length - 1, apellido.length)
+const estudianteSinEspacios = estudiante.replace(/ /g, "")
+const nombreEstudiante = estudiane.includes(nombre)
