@@ -19,10 +19,14 @@ const posterior = peliculas.filter(obj => {
 })
 console.log(posterior)
 
-const director = peliculas.map((director, indice) => `${indice + 1} - ${director}`)
+const director = peliculas.map(pelicula => {
+    return pelicula.director
+})
 console.log(director)
 
-const titulo = peliculas.map((titulo, indice) => `${indice + 1} - ${titulo}`)
+const titulo = peliculas.map(pelicula => {
+    return pelicula.titulo
+})
 console.log(director)
 
 const nuevaLista = director.concat(titulo)
