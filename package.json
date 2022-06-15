@@ -1,12 +1,24 @@
 {
   "name": "01-introduccion",
   "version": "1.0.0",
-  "description": "",
+  "description": "Ejecuta el siguiente comando para configurar el proyecto",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://luiscapp@github.com/Luiscapp/JS.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Luiscapp/JS/issues"
+  },
+  "homepage": "https://github.com/Luiscapp/JS#readme",
+  "dependencies": {
+    "winston": "^3.7.2"
+  }
 }
