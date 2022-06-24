@@ -1,4 +1,4 @@
-import * as modulos from './modulos/controller.js'
+import { suma, multiplica } from './modulos/controller.js'
 
 const sum = suma(4, 5)
 console.log(sum)
